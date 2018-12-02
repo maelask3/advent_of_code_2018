@@ -54,7 +54,6 @@ public class Day2 {
             e.printStackTrace();
         }
 
-        int iterations = 0;
         for (String previous : strings) {
             for (String s : strings) {
                 if (!s.equals(previous)) {
@@ -67,8 +66,6 @@ public class Day2 {
                         } else {
                             differences++;
                         }
-
-                        iterations++;
 
                     }
 
